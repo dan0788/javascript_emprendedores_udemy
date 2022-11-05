@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+body{
+    font-family: 'Crimson Text', serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.contenedor{
+    
+}
+    .cabecera{
+        display: flex;
+        background: #00ead3;
+    }
+        .logo{
+            display: flex;
+            width: 35%;
+            flex-direction: column;
+        }
+            .logo2{
+                display: flex;
+                justify-content: flex-end;
+            }
+                .blog{
+                    color: #f7fd04;
+                }
+                .de{
+                    color: #f9b208;
+                }
+                .citas{
+                    color: #f98404;
+                }
+                .letraLogo{
+                    font-weight: bold;
+                    font-size: 25px;
+                    margin:0px;
+                }
+        .menu{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            width: 65%;
+        }
+            .tamanioRedes{
+                height: 20px;
+                width: 20px;
+            }
+            .redesSociales{
+                padding: 15px;
+                border-radius: 5px;
+            }
+            .redesSociales:hover{
+                background: #c0fefc;
+            }
+            .acercade_box > #box1, #menu_box > #box2, #cuenta_box > #box3{
+                display: none;
+            }
+            div[value*='Menu'],div[value*='Acerca de'],div[value*='Unete'],div[value*='Ya soy miembro'],div[value*='Mi cuenta'], .acercade_options, .menu_options{
+                width: 85px;
+                text-align: center;
+            }
+                .acercade_options, .menu_options, .cuenta_options{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    position: absolute;
+                    width: 85px;
+                    background: #33ff33;
+                }
+        .contenedorBuscar{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 15px 0px;
+        }
+            .inputBuscar{
+                margin-left: 15px;
+                border: 0px;
+                background: #00ead3;
+                width: 300px;
+            }
+    .campoBusqueda{
+        width: 95%;
+        padding: 0 2.5%;
+    }
+    
+        .titleBlog{
+            color: red;
+            font-weight: bold;
+            font-size: 25px;
+            display: flex;
+            width: 1250px;
+        }
+        .buscarGenero{
+            display: flex;
+            margin: 0px 0px 10px 0px;
+        }
+            .opcionesGenero{
+                
+            }
+            .txtGender{
+                margin: 0;
+                padding: 0 10px 0 0;
+                font-weight: bold;
+                color: #890596;
+            }
+    #campoResultados{
+        display: flex;
+        flex-wrap: wrap;
+    }
+        .persona{
+            background: #ff8474;
+            display: flex;
+            margin: 5px 5px;
+            border-radius: 5px;
+            box-shadow: 7px 7px 5px black;
+        }
+            .col_1{
+                display: flex;
+                align-items: center;
+                
+            }
+                .col_2 > p{
+                    margin: 0;
+                    color: #fffbdf;
+                }
+                .col_3 > div{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                    .col_3 > div > button{
+                        border-radius: 5px;
+                        font-family: 'Merienda', cursive;
+                        font-size: 11px;
+                        font-weight: bold;
+                        width: 64%;
+                        height: 72%;
+                    }
+                .col_1 > img{
+                    height: 90%;
+                    width: 90%;
+                    border-radius: 5px;
+                    box-shadow: 2px 2px 2px black;
+                }
+            div[class*="col_"]{
+                font-weight: bold;
+                font-size: 15px;
+            }
+.right{
+    justify-content: flex-end
+}
+.spaceAround{
+    justify-content: space-around;
+}
+.pointer{
+    cursor: pointer;
+}
+.center{
+    justify-content: center;
+}
+.celesteClaro{
+    background: #c0fefc;
+}
+.celeste{
+    background: #00ead3;
+}
+.col-2{
+    width: 50%;
+}
+.col-3{
+    width: 33.33%;
+}
+.col-4{
+    width: 24%;
+}
+.row-3{
+    height: 33.33%;
+}
+.colorGreen{
+    background:#66ff66;
+}
+@media (max-width:1024px) and (min-width:768px){
+    .col-4{
+        width: 32%;
+    }
+}
+@media (max-width:768px) and (min-width:500px){
+    .col-4{
+        width: 48%;
+    }
+}
+@media (max-width:500px) and (min-width:425px){
+    .col-4{
+        width: 47%;
+    }
+}
+@media (max-width:425px){
+    .col-4{
+        width: 99%;
+    }
+}
+/* acciones:
+empty:cuando una etiqueta está vacía
+active:mientras se mantiene presionada la etiqueta
+
+a:link { color: blue; }          Enlaces no visitados
+a:visited { color: purple; }     Enlaces visitados
+a:hover { background: yellow; }  El usuario esta sobre el enlace
+a:active { color: lime; }        Enlaces activos
+
+
+*/

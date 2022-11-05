@@ -1,0 +1,10 @@
+body > div > div > ul{
+    list-style: none;
+}
+body > div > div > ul > li{
+    font-weight: bold;
+    display: flex;
+}
+body > div > div:last-child > div{
+    height: 80px;
+}
